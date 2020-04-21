@@ -1,0 +1,201 @@
+/* Stylesheet for my Social Network Page Assessment */
+
+* {
+    box-sizing: border-box;
+}
+
+header { 
+    margin: 0 auto;
+    width: 100%;
+    max-width: 850px;
+    height: 300px;
+    background-color: rgb(113, 137, 241);
+}
+
+ .white-bottom-header-box  {
+    position: relative;
+    width: 100%;
+    max-width: 850px;
+    top: -40px;
+    height: 50px;
+    background-color: rgb(244, 245, 247);
+}
+
+.pic_insert {
+    width: 200px;
+    height: 200px;
+    top: 30px;
+    left: 15px;
+    background-color: rgb(113, 137, 241);
+    border: 1px solid black;
+    position: relative;
+    border-radius: 1.75%;
+    z-index: 1;
+}
+
+.button-group {
+    position: relative;
+    left: 65%;
+    top:-30px;
+}
+
+li {
+    list-style: none;
+    background-color: rgb(244, 245, 247);
+    color: black;
+    position: relative;
+    float: left;
+    padding-top: 12px;
+    padding-bottom: 12;
+    left: 200px;
+    margin-left: 10px;
+ }
+ 
+.links::after { 
+    content: "     |    ";
+ }
+
+h1 {
+    position: relative;
+    top: 200px;
+    left: 220px;
+    color: white;
+    font-family: helvetica;
+}
+
+ h4 {
+    position: relative;
+    top: 200px;
+    left: 220px;
+    color: white;
+    font-family: helvetica;
+ }
+
+ main {
+    box-sizing: border-box;
+    margin: 0 auto;
+    background-color: rgb(223, 217, 217);
+    color: rgb(113, 137, 241);
+    top: 100px;
+    width: 100%;
+    max-width: 850px;
+    height: 500px;
+    margin-top: 75px;
+ }
+
+.column_left {
+   float: left;
+   top: -400px;
+   width: 325px;
+   height: 400px;
+ }
+ 
+ .column_right {
+    float: right;
+    top: 200px;
+    width: 512px;
+    height: 400px;
+}
+
+.top-white-card {
+    width: 328px;
+    height: 30px;
+    background-color: white;
+}
+
+.whitecard-name {
+    width: 328px;
+    background-color: white;
+    border-top: 1px solid rgb(223, 217, 217);
+    padding-bottom: 10px;
+}
+
+.whitecard-website {
+    width: 328px;
+    background-color:white;
+    border-top: 1px solid rgb(223, 217, 217);
+}
+
+.website {
+    position: relative;
+    top: -10px;
+    left: 15px;
+    color: rgb(113, 137, 241);
+}
+
+.graycard-about {
+    width: 328px;
+    background-color: rgb(252, 249, 249);
+    border-top: 1px solid rgb(223, 217, 217);
+}
+
+.whitecard-about {
+    width: 328px;
+    background-color: white;
+    position: relative;
+    top: -20px;
+    border-bottom: 1px solid rgb(223, 217, 217);
+}
+
+.page-name {
+    position: relative;
+    top: 0px;
+    left: 15px;
+    /* padding: 10px; */
+    color: black;
+}   
+
+p {padding: 0px 15px;
+}
+
+.about {
+    position: relative;
+    top: -10px;
+    left: 15px;
+    color: black;
+}
+
+.address {
+    position: relative;
+    top: 10px;
+    left: 15px;
+    color: grey;
+}
+
+/* right column */
+
+.small-blue-box {
+    position: relative;
+    float: left;
+    top: 10px;
+    left: 30px;
+    width: 50px;
+    height: 50px;
+    left: 15px;
+    background-color: rgb(113, 137, 241);
+} 
+ 
+white-box-with-small-blue-box {
+    float: right;
+    position: relative;
+    width: 512px;
+    height: 90px;
+    background-color: white;
+}
+
+white-box-with-small-blue-box > p {
+    position: relative;
+    top: 10px;
+    left: 17px;
+    color: rgb(113, 137, 241);
+    font-family: helvetica;
+    font-size: small;
+
+}
+.column_right > .big-blue-box {
+    float: right;
+    position: relative;
+    width: 512px;
+    height: 225px;
+    background-color: rgb(113, 137, 241);
+}
